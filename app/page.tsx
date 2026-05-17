@@ -134,12 +134,20 @@ export default function Home() {
             <span className="text-2xl font-bold">CyberViser AI</span>
           </div>
           <p className="text-gray-400 mb-8">Autonomous Security Research Platform</p>
-          <div className="flex justify-center gap-8">
+          <div className="flex justify-center gap-8 mb-8">
             <a href="https://github.com/GulfOfAmerica/glasseye-ai" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">
               <Github className="w-6 h-6" />
             </a>
           </div>
-          <p className="mt-12 text-sm text-gray-500">&copy; 2026 CyberViser AI. All rights reserved.</p>
+          <div className="text-sm text-gray-500 space-y-2">
+            <p className="font-semibold text-gray-400">&copy; 2026 Johnny Watters. All Rights Reserved.</p>
+            <p>Proprietary Software | For Authorized Security Research Only</p>
+            <p className="text-xs">
+              <a href="https://github.com/GulfOfAmerica/cyberviser-website/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">
+                View License
+              </a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>
