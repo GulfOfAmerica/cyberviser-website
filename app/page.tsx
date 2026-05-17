@@ -144,9 +144,9 @@ export default function Home() {
               <a href="https://github.com/GulfOfAmerica/glasseye-ai" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-cyan-400 transition flex items-center gap-1">
                 <Github className="w-4 h-4" /> GitHub
               </a>
-              <button className="bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-2 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-cyan-500/50 transition-all">
+              <a href="https://github.com/GulfOfAmerica/glasseye-ai" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-2 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-cyan-500/50 transition-all">
                 Get Access
-              </button>
+              </a>
             </div>
           </nav>
         </header>
@@ -173,12 +173,12 @@ export default function Home() {
               </p>
 
               <div className="flex flex-wrap gap-4 mb-12">
-                <button className="bg-gradient-to-r from-cyan-500 to-blue-500 px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all flex items-center gap-2">
+                <a href="https://github.com/GulfOfAmerica/glasseye-ai" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-cyan-500 to-blue-500 px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all flex items-center gap-2">
                   Launch Platform <ChevronRight className="w-5 h-5" />
-                </button>
-                <button className="border border-white/20 backdrop-blur-lg bg-white/5 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-all">
+                </a>
+                <a href="#capabilities" className="border border-white/20 backdrop-blur-lg bg-white/5 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-all">
                   View Documentation
-                </button>
+                </a>
               </div>
 
               {/* Rotating Stats */}
@@ -331,12 +331,12 @@ export default function Home() {
                 to discover vulnerabilities faster than ever before.
               </p>
               <div className="flex justify-center gap-4">
-                <button className="bg-gradient-to-r from-cyan-500 to-blue-500 px-10 py-5 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all flex items-center gap-2">
+                <a href="https://github.com/GulfOfAmerica/glasseye-ai" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-cyan-500 to-blue-500 px-10 py-5 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all flex items-center gap-2">
                   Get Started Now <Zap className="w-5 h-5" />
-                </button>
-                <button className="border-2 border-white/20 backdrop-blur-lg bg-white/5 px-10 py-5 rounded-xl font-bold text-lg hover:bg-white/10 transition-all">
+                </a>
+                <a href="mailto:johnny@glasseye.ai?subject=CyberViser%20Demo%20Request" className="border-2 border-white/20 backdrop-blur-lg bg-white/5 px-10 py-5 rounded-xl font-bold text-lg hover:bg-white/10 transition-all">
                   Schedule Demo
-                </button>
+                </a>
               </div>
             </div>
           </div>
